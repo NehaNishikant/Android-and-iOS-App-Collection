@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/choice2_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/choice1_id"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp"
+            android:layout_toEndOf="@+id/choice1_id"
+            android:layout_toRightOf="@+id/choice1_id"
+            android:text="Choice 2" />
+
+        <Button
+            android:id="@+id/choice4_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/choice3_id"
+            android:layout_alignBottom="@+id/choice3_id"
+            android:layout_alignLeft="@+id/choice2_id"
+            android:layout_alignStart="@+id/choice2_id"
+            android:text="Choice 4" />
+
+        <Button
+            android:id="@+id/choice3_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choice 3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/choice1_id"
+            android:layout_alignStart="@+id/choice1_id"
+            android:layout_marginBottom="149dp" />
+
+        <Button
+            android:id="@+id/choice1_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="98dp"
+            android:layout_marginStart="98dp"
+            android:text="Choice 1"
+            android:layout_above="@+id/choice3_id"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/choice1_id"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/mcQuestion_id" />
+    </RelativeLayout>
+</LinearLayout>

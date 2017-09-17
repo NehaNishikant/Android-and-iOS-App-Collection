@@ -1,0 +1,33 @@
+
+money.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+money2
+  rotate: false
+  xy: 2, 504
+  size: 869, 500
+  orig: 869, 500
+  offset: 0, 0
+  index: -1
+money3
+  rotate: false
+  xy: 2, 2
+  size: 869, 500
+  orig: 869, 500
+  offset: 0, 0
+  index: -1
+
+money2.png
+size: 512,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+money1
+  rotate: false
+  xy: 2, 2
+  size: 474, 200
+  orig: 474, 200
+  offset: 0, 0
+  index: -1

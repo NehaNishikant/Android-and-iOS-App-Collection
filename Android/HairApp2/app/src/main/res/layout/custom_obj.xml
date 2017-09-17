@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="108dp"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="108dp">
+
+        <TextView
+            android:id="@+id/main_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:text="Click for Tutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/open_id" />
+
+        <Button
+            android:text="Click To Favorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/favorite_id" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
