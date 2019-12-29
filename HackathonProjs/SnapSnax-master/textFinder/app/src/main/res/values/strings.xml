@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">textFinder</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_second">Second</string>
+</resources>
